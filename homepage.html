@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  
+
+        *{
+            padding: 0%;
+            margin: 0%;
+            font-family: sans-serif;
+        }
+       .hero{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:url(devu.png); 
+        background-size: cover;
+    }
+    .logo{
+        font-family: 'Righteous', cursive;
+        font-size: 7vh;
+        margin-top: 6vh;
+        margin-left: -15vh;
+       
+        }
+    .hero nav{
+        display: flex;
+        width: 84%;
+        margin: auto;
+        padding: 20px 0;
+        align-content: center;
+        justify-content: space-between;
+      
+    }
+    .hero nav ul{
+     background-color: #fff;
+     border-radius: 20px; 
+     height: 6vh;
+     padding-top: 1vh;
+       
+    }
+    .hero nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 1px 20px;
+        padding: 1vh;
+        padding-top: 1vh;
+    }
+    .hero nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 1vh;
+        border-radius: 15px;
+        font-size: 2vh;
+    }
+    .hero nav ul li a:hover{
+        color:#ff5361;
+    }
+    .dit{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    .dit h1{
+        font-size: 70px;
+        color:#2494aa;
+        margin-bottom: 8px;
+        font-family: 'Finger Paint', cursive;
+    }
+    .dit h1 span{
+        color:#5d143c;
+        padding-left: 2vh;
+        font-family: 'Henny Penny', cursive;
+    }
+    .dit p{
+        color:#604237;
+        line-height: 22px;
+        font-size: 21px;
+        font-family: 'Cute Font', cursive;
+    }
+    .dit a{
+        background-color: #eeb727;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color:#2494aa;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+        font-family: 'Fredoka One', cursive;
+    }
+    .img{
+        width: 23%;
+        height: 10%;
+        position: absolute;
+        margin-top: -32%;
+        left: 64%;
+        margin-bottom: 4vh;
+    }
+    .sh{
+        width: 180%;
+        margin: -10%;
+    }
+     .hl1{
+    height: 60vh;
+    color: #009693;
+    background-color:#009693;
+    margin-top:-13%;
+    width: 62vh;
+    margin-left: 68%; 
+    border-radius: 50px;            
+}
+.hr2{
+    height: 38vh;
+    color: #fcf8ce;
+    background-color:#fcf8ce;
+    margin-bottom:55vh;
+    width: 87vh;
+    margin-top: -70vh;
+    margin-left:15vh; 
+    border-radius: 50px;
+}
+.hr2:hover{
+    color: #5d143c;
+    size: 2vh;
+    
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 2vh;  
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(224, 211, 211);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+    </style>
+</head>
+<body>
+   <div class="hero">
+       <nav>
+        <h1 class="logo" >Hello </h1>
+        <ul>
+            <li><a href="porfolio.html">PORTFOLIO</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <div class="dropdown">
+            <button class="dropbtn">PROJECTS
+                
+              </button>
+              <div class="dropdown-content">
+                <a href="cofe.html">PROJECT 1</a>
+                <a href="hair.html">PROJECT 2</a>
+                <a href="#">PROJECT 3</a>
+              </div>
+              </div>
+            <li><a href="INSTRODUCTION.html">INSTRODUCTION</a></li>
+        </ul>
+       </nav>
+       <div class="dit">
+        <h1>I,m Dev<span>Patel</span></h1>
+        <p>This is my official portfolio website to showes all 
+            <br>Details and work experience web devlopment
+        </p>
+        <a href="#">DOWNLOAD </a>
+       </div>
+       <div class="img">
+        <img src="220.png" class="sh" >
+       </div> 
+       <hr class="hl1" >
+       <hr class="hr2" >
+   </div>   
+</body>
+</html>
